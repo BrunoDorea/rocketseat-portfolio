@@ -4,9 +4,10 @@
 --bg-cards: #554e52;
 --bg-techs: #706f70;
 --border-profile: #06ad3d;
---html: #d6360f; 
---css: #510eb6;
---kotlin: #dd4949;
+--html: orange; 
+--java: orange; 
+--css: blue;
+--kotlin: purple;
 }
 
 body{
@@ -208,7 +209,11 @@ background: var(--html);
 }
 
 .kotlin{
-background: var(--html);
+background: var(--kotlin);
+}
+
+.java{
+background: var(--java);
 }
 
 .tags{
