@@ -1,13 +1,14 @@
 :root{
---body-bg-color: #ffffff;
---text-color: #c2c2c2;
---bg-cards: #554e52;
---bg-techs: #706f70;
---border-profile: #06ad3d;
---html: orange; 
---java: orange; 
---css: blue;
---kotlin: purple;
+--body-bg-color: #FFFFFF;
+--text-color: #C2C2C2;
+--bg-cards: #554E52;
+--bg-techs: #706F70;
+--border-profile: #06AD3D;
+--html: #E34C26; 
+--java: #B07219; 
+--css: #563D7C;
+--kotlin: #A97BFF;
+--javascript: #F1E05A;
 }
 
 body{
@@ -215,6 +216,10 @@ background: var(--kotlin);
 .java{
 background: var(--java);
 }
+
+.javascript{
+    background: var(--javascript);
+    }
 
 .tags{
 font-size: 12px;
